@@ -1,0 +1,181 @@
+
+/*
+General
+*/
+a {
+    color: #FF6F59;
+    border-color: #FF6F59
+}
+
+body {
+    background-color: #1C1D21;
+    color: #F7F7FF;
+}
+
+main {
+    min-height: 95vh;
+}
+
+h1 {
+    padding-bottom: 1rem;
+    color: #FF6F59
+}
+
+h2 {
+    color: #FF6F59
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.about-container .col-lg-3 {
+    text-align: center;
+}
+
+.about-text {
+    margin-bottom: 60px;
+}
+
+.bg-dark {
+    background-color: #1C1D21 !important
+}
+
+.footer-text {
+    color: #7D8491;
+}
+
+.form-label-group {
+    margin-top: 18px;
+    
+}
+
+.home-features-divider {
+    border-bottom: 1px solid #FF6F59;
+    margin-top: 3rem;
+    margin-bottom: 3rem
+}
+
+.jumbotron {
+    background-color: #1C1D21 !important;
+    color: #F7F7FF;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #FF6F59
+}
+
+.order-container, .about-container, .attributions-container {
+    padding-top: 8rem
+}
+
+.order-form {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.order-submit-button {
+    margin-top: 28px;
+
+}
+
+
+/*
+Buttons
+*/
+.jumbotron-button {
+    padding-top: 1.2rem;
+}
+
+#order-now-button {
+    color: #FF6F59;
+    border-color: #FF6F59
+}
+
+#order-now-button:hover {
+    background-color: #F7F7FF;
+}
+
+
+/*
+Hyperlinks
+*/
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF6F59;
+}
+
+a:active {
+    text-decoration: none;
+    color: #FF6F59;
+}
+
+
+/*
+Navigation
+*/
+#navbar-custom {
+    border-bottom: 1px solid #FF6F59
+}
+
+.active {
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-brand {
+    color:#FF6F59
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#FF6F59
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#FF6F59;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color:#FF6F59;
+    text-underline-offset: 0.3em;
+}
+.navbar-dark .navbar-nav .nav-link.active:hover {
+    color:#FF6F59;
+    font-weight: 1em;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #FF6F59;
+  }
+
+.nav-item {
+    font-size: 1rem;
+}
+
+/*
+Responsive
+*/
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+  
+    .home-feature-heading {
+      font-size: 42px;
+    }
+}
+  
+@media (min-width: 62em) {
+    .home-feature-heading {
+      margin-top: 8rem;
+    }
+}
